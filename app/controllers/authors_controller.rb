@@ -1,5 +1,5 @@
 class AuthorsController < ApplicationController
-  vali
+  validates :name, presence: true
 
 
   def show
