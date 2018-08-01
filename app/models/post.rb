@@ -3,8 +3,4 @@ class Post < ActiveRecord::Base
   validates :content, length: { minimum: 1 }
 
 
-  def content?
-    if content.empty?
-      
-  end
 end
